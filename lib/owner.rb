@@ -65,5 +65,6 @@ class Owner
         pet_array.clear}}
   end
 
+  def list_pets
 
 end
