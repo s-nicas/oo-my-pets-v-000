@@ -62,6 +62,7 @@ class Owner
     @pets.each{|type_of_pet, pet_array|
     pet_array.clear
   pet_array.each{|pet|
+    binding.pry
     pet.mood = "nervous"}}
   end
 
