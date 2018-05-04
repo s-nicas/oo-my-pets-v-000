@@ -63,7 +63,7 @@ class Owner
       pet_array.each{|pet|
         binding.pry
         pet.mood ="nervous"
-        pet_array.clear}}
+        }pet_array.clear}
   end
 
   def list_pets
